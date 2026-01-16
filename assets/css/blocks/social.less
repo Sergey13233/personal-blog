@@ -1,0 +1,19 @@
+// main: ../style.less
+
+.social {
+    display: flex;
+    justify-content: center;
+
+    @media (@tablet-bp) {
+        display: none;
+
+        &--modal {
+            display: flex;
+            justify-content: center;
+        }
+    }
+}
+
+.social__item {
+    margin: 0 .75rem;
+}
